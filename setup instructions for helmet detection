@@ -1,0 +1,4 @@
+pip install ultralytics ( in command promt or in terminal if you are using vs code)
+*** addd '!' in front of pip if you are coding in colab***
+download the given helmet dection model named "helmetdetectionmodel.pt"
+and give the downloded path in code

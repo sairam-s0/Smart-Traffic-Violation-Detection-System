@@ -5,7 +5,8 @@ from ultralytics import YOLO
 # Load the helmet detection model (Update the path to your .pt file)
 helmet_model = YOLO("E:/internships project/tamizhan skills/SendAnywhere_122409/hemletYoloV8_100epochs.pt")  # Just the filename if it's in the same folder
 
-# Start webcam or use a video file (0 = default webcam)
+# Start webcam or use a video file (0 = default webcam) gve 1 or 2 if your using secondary camera
+
 cap = cv2.VideoCapture(0)
 
 # Define Region of Interest (ROI) bounds

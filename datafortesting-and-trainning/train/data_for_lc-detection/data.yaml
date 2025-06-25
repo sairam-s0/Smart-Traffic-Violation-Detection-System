@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 13
+names: ['Lorry back', 'Lorry front', 'bike back', 'bike front', 'bus back', 'bus front', 'car back', 'car front', 'number plate', 'three wheeler back', 'three wheeler front', 'van back', 'van front']
+
+roboflow:
+  workspace: kaveesha-bz316
+  project: vehicle-detection-categorization
+  version: 6
+  license: Public Domain
+  url: https://universe.roboflow.com/kaveesha-bz316/vehicle-detection-categorization/dataset/6

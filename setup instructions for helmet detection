@@ -1,4 +1,17 @@
-pip install ultralytics ( in command promt or in terminal if you are using vs code)
-*** addd '!' in front of pip if you are coding in colab***
-download the given helmet dection model named "helmetdetectionmodel.pt"
-and give the downloded path in code
+# Core dependencies
+opencv-python
+torch
+numpy
+qrcode
+requests
+paddleocr
+ultralytics
+
+# Optional: version locking for reproducibility
+# opencv-python==4.8.0.76
+# torch==2.1.0
+# numpy==1.24.3
+# qrcode==7.4.2
+# requests==2.31.0
+# paddleocr==2.7.1
+# ultralytics==8.0.189

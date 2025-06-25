@@ -1,6 +1,27 @@
-#this is the program for helmet detection #
-#i have given the the .pt file or the model file in the modle file#
+# 🚦 Smart Traffic Violation Detection System
 
-#DEPENDENCIES#
-ultralytics
-open cv
+This Python-based system uses real-time object detection and OCR to identify traffic rule violations such as:
+- **No Helmet (Motorcycles)**
+- **No Seatbelt (Cars)**
+- **License Plate Recognition**
+- **Violation Alerts via Telegram (with QR code for fine payment)**
+
+---
+
+## 🔧 Features
+
+- YOLOv8-based detection of:
+  - Vehicles (cars, bikes)
+  - Helmets
+  - Seatbelts
+  - Number plates
+- OCR with PaddleOCR for plate text recognition
+- Violation notification sent via Telegram with:
+  - Annotated image
+  - Location and time
+  - Fine QR code
+
+---
+
+## 📁 Project Structure
+

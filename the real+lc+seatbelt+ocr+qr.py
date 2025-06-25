@@ -25,8 +25,8 @@ PLATE_CONF = 0.4
 SEATBELT_CONF = 0.4  # Set your seatbelt detection confidence threshold
 
 # Telegram Bot Config
-TELEGRAM_BOT_TOKEN = "7799050865:AAErFEt7bhRwWhd1HVKgG5mBTHwUMUaO7gk"
-TELEGRAM_CHAT_ID = ["6419813780", "1743276164", "7664668850"]
+TELEGRAM_BOT_TOKEN = "your bot token "
+TELEGRAM_CHAT_ID = "your id s u can give in a list f have many"
 
 # Random Place List
 places = [

@@ -24,4 +24,16 @@ This Python-based system uses real-time object detection and OCR to identify tra
 ---
 
 ## 📁 Project Structure
+helmetdetection-using-yolo8m-opencv/
+├──datafortesting-and-trainning/
+├──testing/
+├──train/
+├── models/                 # Pretrained YOLOv8 models for helmet, seatbelt, vehicle, and license plate detection
+├── scr/
+├── main.py                 # Main script for video stream processin
+├──dynamic signal handling.py
+├──helmetvc.py
+├── requirements.txt        # Required Python packages
+└── README.md               # Project documentation
+
 

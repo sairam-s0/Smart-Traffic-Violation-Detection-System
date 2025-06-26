@@ -25,15 +25,15 @@ This Python-based system uses real-time object detection and OCR to identify tra
 
 ## 📁 Project Structure
 helmetdetection-using-yolo8m-opencv/
-├──datafortesting-and-trainning/
-├──testing/
-├──train/
-├── models/                 # Pretrained YOLOv8 models for helmet, seatbelt, vehicle, and license plate detection
-├── scr/
-├── main.py                 # Main script for video stream processin
-├──dynamic signal handling.py
-├──helmetvc.py
-├── requirements.txt        # Required Python packages
-└── README.md               # Project documentation
+├── datafortesting-and-trainning/       # Datasets for training and testing
+├── testing/                            # Testing scripts and sample test data
+├── train/                              # Training scripts and configurations
+├── models/                             # Pretrained YOLOv8 models (helmet, seatbelt, vehicle, plate)
+├── scr/                                # Supporting scripts (utilities, helpers, etc.)
+├── main.py                             # Main script for real-time video stream processing
+├── dynamic signal handling.py          # Module for adaptive traffic signal control
+├── helmetvc.py                         # Helmet violation checker logic
+├── requirements.txt                    # Python dependencies
+└── README.md                           # Project documentation
 
 

@@ -23,8 +23,9 @@ This Python-based system uses real-time object detection and OCR to identify tra
 
 ---
 
-##FOR MORE INFO CHECKOUT [MY WIKI PAGE](https://github.com/sairam-s0/Smart-Traffic-Violation-Detection-System/wiki/telegram-bot-instructions#creating-telegram-bot)
+## FOR MORE INFOCHECKOUT [MY WIKI PAGE](https://github.com/sairam-s0/Smart-Traffic-Violation-Detection-System/wiki/telegram-bot-instructions#creating-telegram-bot)
 
+---
 
 ## 📁 Project Structure
 

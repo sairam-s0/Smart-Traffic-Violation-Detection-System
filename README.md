@@ -37,5 +37,9 @@ helmetdetection-using-yolo8m-opencv/
 ├── helmetvc.py
 ├── requirements.txt
 └── README.md
+```
+---
+## IMPORTANT 
+- To create a telegram bot follow the instruction in the wiki page of this repo
 
 

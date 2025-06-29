@@ -23,6 +23,9 @@ This Python-based system uses real-time object detection and OCR to identify tra
 
 ---
 
+##FOR MORE INFO CHECKOUT [MY WIKI PAGE] 
+
+
 ## 📁 Project Structure
 
 ```text

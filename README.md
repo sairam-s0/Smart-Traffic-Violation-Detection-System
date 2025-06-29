@@ -41,5 +41,6 @@ helmetdetection-using-yolo8m-opencv/
 ---
 ## IMPORTANT 
 - To create a telegram bot follow the instruction in the wiki page of this repo
+- here is the link: https://github.com/sairam-s0/Smart-Traffic-Violation-Detection-System/wiki/telegram-bot-instructions#creating-telegram-bot
 
 

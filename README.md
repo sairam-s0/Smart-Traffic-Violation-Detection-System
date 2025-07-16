@@ -62,7 +62,7 @@ cd Helmet-Detection
 python helmet_detect.py --source your_video.mp4
 
 # Mask detection
-cd ../Mask-Detection
+cd ../seatbelt-Detection
 python mask_detect.py --source your_video.mp4
 
 # Red light violation detection

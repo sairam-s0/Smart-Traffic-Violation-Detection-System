@@ -95,7 +95,7 @@ This project is licensed under the **MIT License**. See [LICENSE](./LICENSE) for
 
 ## 🙋‍♂️ Author
 
-**Sai Ram**
+**Sairam**
 GitHub: [@sairam-s0](https://github.com/sairam-s0)
 
 ---

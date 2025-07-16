@@ -77,8 +77,7 @@ python redlight_detect.py --source your_video.mp4
 - mAP@0.5: **96.75%**
 - Precision: ~**92%**
 - Recall: ~**95%**
--![Training Results](models\lc-plate-detection\metrices\results.png
-) 
+-![Training Results](./models/lc-plate-detection/metrices/results.png) 
 
 
 ---

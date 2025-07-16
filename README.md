@@ -78,4 +78,33 @@ Instead of a single monolithic pipeline, this system treats each violation type 
 * Scalable deployment (microservices, edge devices)
 
 ---
+## 🧩 Why Modular?
+
+Instead of a single monolithic pipeline, this system treats each violation type as a separate module for:
+
+* Easier maintenance and debugging
+* Model-specific training & optimization
+* Scalable deployment (microservices, edge devices)
+
+---
+## 📜 License
+
+This project is licensed under the **MIT License**. See [LICENSE](./LICENSE) for details.
+
+---
+
+## 🙋‍♂️ Author
+
+**Sai Ram**
+GitHub: [@sairam-s0](https://github.com/sairam-s0)
+
+---
+
+## 🤝 Contributions
+
+Pull requests, suggestions, and bug reports are welcome.
+Please open an issue or submit a PR with improvements or additional models.
+
+```
+
 

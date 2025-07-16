@@ -1,33 +1,20 @@
 # 🚦 Smart Traffic Violation Detection System
 
-This Python-based system uses real-time object detection and OCR to identify traffic rule violations such as:
-- **No Helmet (Motorcycles)**
-- **No Seatbelt (Cars)**
-- **License Plate Recognition**
-- **Violation Alerts via Telegram (with QR code for fine payment)**
+An AI-powered traffic surveillance system that detects multiple types of traffic violations using computer vision and deep learning models. Each violation type is handled by a separate, independently optimized model to allow flexibility, better benchmarking, and modular updates.
 
 ---
 
-## 🔧 Features
+## 🧠 Core Features
 
-- YOLOv8-based detection of:
-  - Vehicles (cars, bikes)
-  - Helmets
-  - Seatbelts
-  - Number plates
-- OCR with PaddleOCR for plate text recognition
-- Violation notification sent via Telegram with:
-  - Annotated image
-  - Location and time
-  - Fine QR code
+- 🎯 **Helmet Detection** – Detects riders without helmets using YOLOv8.
+- 😷 **Face Mask Detection** – Identifies whether individuals are wearing masks (ResNet).
+- 🧍 **Triple Riding Detection** – Detects more than 2 people on a bike (YOLO/ResNet).
+- 🚫 **Red Light Violation Detection** – Detects vehicle movement beyond stop-line (OpenCV logic).
+- 🔍 **Modular Architecture** – Each model runs independently; combine or deploy separately.
 
 ---
 
-## FOR MORE INFOCHECKOUT [MY WIKI PAGE](https://github.com/sairam-s0/Smart-Traffic-Violation-Detection-System/wiki#-traffic-monitoring--violation-detection-system)
-
----
-
-## 📁 Project Structure
+## 🗂️ Project Structure
 
 ```text
 helmetdetection-using-yolo8m-opencv/

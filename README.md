@@ -69,5 +69,13 @@ python mask_detect.py --source your_video.mp4
 cd ../Red-Light-Violation
 python redlight_detect.py --source your_video.mp4
 ```
+## 🧩 Why Modular?
+
+Instead of a single monolithic pipeline, this system treats each violation type as a separate module for:
+
+* Easier maintenance and debugging
+* Model-specific training & optimization
+* Scalable deployment (microservices, edge devices)
 
 ---
+

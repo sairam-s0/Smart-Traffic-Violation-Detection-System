@@ -71,7 +71,16 @@ python redlight_detect.py --source your_video.mp4
 ```
 ---
 ## MODEL EVALUATION
+### 📊 License Plate Detection – Model Results
 
+- Model: YOLOv8
+- mAP@0.5: **96.75%**
+- Precision: ~**92%**
+- Recall: ~**95%**
+-![Training Results](./models/lc-plate-detection/results.png) 
+
+
+---
 ## 🧩 Why Modular?
 
 Instead of a single monolithic pipeline, this system treats each violation type as a separate module for:

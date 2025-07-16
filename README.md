@@ -71,13 +71,21 @@ python redlight_detect.py --source your_video.mp4
 ```
 ---
 ## MODEL EVALUATION
-### 📊 License Plate Detection – Model Results
+## 📊 Model Evaluation Summary
 
-- Model: YOLOv8
-- mAP@0.5: **96.75%**
-- Precision: ~**92%**
-- Recall: ~**95%**
--![Training Results](./models/lc-plate-detection/metrices/results.png) 
+| **Model**              | **Precision** | **Recall** | **mAP@0.5** | **mAP@0.5:0.95** | **Notes** |
+|------------------------|---------------|------------|-------------|------------------|-----------|
+| **License Plate**      | ~0.925        | ~0.95      | ~0.967      | ~0.815           | High-performing, best across all metrics |
+| **Seatbelt Detection** | ~0.84         | ~0.80      | ~0.85       | ~0.45            | Stable training, real-world usable, tighter IoU weaker |
+
+---
+
+### 🔍 Overall Observations:
+- 📈 All models show smooth learning curves with no signs of overfitting.
+- ✅ **License Plate model** is the strongest — highly accurate and stable.
+- 🚧 **Seatbelt model** performs well in general, but tighter localization (mAP@0.5:0.95) could be improved.
+  
+
 
 
 ---

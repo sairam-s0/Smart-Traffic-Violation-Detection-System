@@ -30,7 +30,44 @@ helmetdetection-using-yolo8m-opencv/
 └── README.md
 ```
 ---
-## IMPORTANT 
-- To create a telegram bot follow the instruction in the wiki page of this repo
-- Check out the [The wiki Page](https://github.com/sairam-s0/Smart-Traffic-Violation-Detection-System/wiki/telegram-bot-instructions#creating-telegram-bot)
+---
 
+## 🛠 Installation
+
+1. Clone the repo
+
+   ```bash
+   git clone https://github.com/sairam-s0/Smart-Traffic-Violation-Detection-System.git
+   cd Smart-Traffic-Violation-Detection-System
+   ```
+
+2. Install dependencies
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Download model weights
+   *(Place your YOLO and other model weights in the appropriate folders)*
+
+---
+
+## 🚀 How to Run
+
+Each module runs independently:
+
+```bash
+# Helmet detection
+cd Helmet-Detection
+python helmet_detect.py --source your_video.mp4
+
+# Mask detection
+cd ../Mask-Detection
+python mask_detect.py --source your_video.mp4
+
+# Red light violation detection
+cd ../Red-Light-Violation
+python redlight_detect.py --source your_video.mp4
+```
+
+---
